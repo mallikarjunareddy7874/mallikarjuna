@@ -7,6 +7,19 @@ app_description = "training"
 app_email = "mallikarjuna.r@promantia.com"
 app_license = "MIT"
 
+
+
+fictures=[
+{"dt":"custom feild",
+	"filters":["name","in"[
+			'Sales Invoice-sales_person',
+			'Item-items',
+			'Sales Invoice-sales_person',
+			'Account-accounting'
+			]
+			]
+}
+]
 # Includes in <head>
 # ------------------
 
