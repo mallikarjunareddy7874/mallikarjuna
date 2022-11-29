@@ -18,8 +18,19 @@ fixtures = [
 			]
 			]
 	]
+},
+{"dt":"Property Setter",
+	"filters":[
+	[
+	"name","in",[
+			'About Us Team Member-member-team'
+			]
+			]
+	]
 }
+
 ]
+
 # Includes in <head>
 # ------------------
 
