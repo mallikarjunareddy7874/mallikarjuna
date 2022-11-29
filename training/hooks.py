@@ -9,15 +9,15 @@ app_license = "MIT"
 
 
 
-fictures=[
-{"dt":"custom feild",
-	"filters":["name","in"[
-			'Sales Invoice-sales_person',
-			'Item-items',
-			'Sales Invoice-sales_person',
+fixtures = [
+{"dt":"Custom Field",
+	"filters":[
+	[
+	"name","in",[
 			'Account-accounting'
 			]
 			]
+	]
 }
 ]
 # Includes in <head>
