@@ -23,7 +23,8 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
-			'About Us Team Member-member-team'
+			'About Us Team Member-member-team',
+			'Purchase Receipt Item-from_warehouse-hidden'
 			]
 			]
 	]
