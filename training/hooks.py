@@ -14,7 +14,11 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
+			'Account-accounting',
+			'Sales Invoice-sales_person',
+			'Item-items',
 			'Account-accounting'
+
 			]
 			]
 	]
