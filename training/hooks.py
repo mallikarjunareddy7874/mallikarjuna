@@ -37,7 +37,21 @@ fixtures = [
 			]
 			]
 	]
+},
+{"dt":"Print Format",
+	"filters":[
+	[
+	"name","in",[
+			'KSA POS Invoice',
+			'POS Invoice'
+			'Point of Sale'
+
+
+			]
+			]
+	]
 }
+
 
 ]
 
