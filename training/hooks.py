@@ -42,6 +42,8 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
+			'html print format',
+			'SAL-ORD-2022-00001',
 			'KSA POS Invoice',
 			'POS Invoice',
 			'Point of Sale'
