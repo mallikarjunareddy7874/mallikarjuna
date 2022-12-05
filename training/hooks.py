@@ -43,7 +43,7 @@ fixtures = [
 	[
 	"name","in",[
 			'KSA POS Invoice',
-			'POS Invoice'
+			'POS Invoice',
 			'Point of Sale'
 
 
