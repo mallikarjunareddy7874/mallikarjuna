@@ -50,6 +50,30 @@ fixtures = [
 			]
 			]
 	]
+},
+{"dt":"Notification",
+	"filters":[
+	[
+	"name","in",[
+			'notice'
+
+
+
+			]
+			]
+	]
+},
+{"dt":"Workflow",
+	"filters":[
+	[
+	"name","in",[
+			'workflow 1'
+
+
+
+			]
+			]
+	]
 }
 
 
