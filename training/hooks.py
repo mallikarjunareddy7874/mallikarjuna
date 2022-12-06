@@ -42,8 +42,8 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
-			'html print format',
-			'SAL-ORD-2022-00001',
+			'Drag',
+			'print format doc'
 
 
 
