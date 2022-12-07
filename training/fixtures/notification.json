@@ -1,0 +1,42 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": "doc.status==\"reject\"",
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Sales Invoice",
+  "enabled": 1,
+  "event": "New",
+  "is_standard": 0,
+  "message": "you get a message from us",
+  "method": null,
+  "modified": "2022-12-06 17:59:43.681763",
+  "module": null,
+  "name": "notice",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": "doc.status==\"reject\"",
+    "parent": "notice",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": "Stock Manager"
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 0,
+  "sender": "mallikarjuna",
+  "sender_email": "mallikarjunareddypothireddy@gmail.com",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "{{doc.name}}",
+  "value_changed": null
+ }
+]

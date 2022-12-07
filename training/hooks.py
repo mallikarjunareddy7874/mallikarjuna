@@ -67,6 +67,7 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
+
 			'workflow 1'
 
 
