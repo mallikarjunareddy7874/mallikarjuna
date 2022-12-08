@@ -5,5 +5,3 @@ def valid(doc,method):
     else:
         frappe.throw("no you are higher than grand total please check it once")
     
-    
-    
