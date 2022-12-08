@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "pay-.####",
+ "creation": "2022-12-07 15:24:05.693863",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "select_bank",
+  "password",
+  "confirmation",
+  "success"
+ ],
+ "fields": [
+  {
+   "fieldname": "password",
+   "fieldtype": "Int",
+   "label": "password"
+  },
+  {
+   "fieldname": "select_bank",
+   "fieldtype": "Select",
+   "label": "select bank",
+   "options": "sbi\nhdfc\nunion"
+  },
+  {
+   "fieldname": "confirmation",
+   "fieldtype": "Select",
+   "label": "confirmation",
+   "options": "yes\nno"
+  },
+  {
+   "fieldname": "success",
+   "fieldtype": "Select",
+   "label": "success",
+   "options": "ok"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-07 15:30:40.429081",
+ "modified_by": "Administrator",
+ "module": "training",
+ "name": "payment autherization",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

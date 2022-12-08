@@ -68,7 +68,10 @@ fixtures = [
 	[
 	"name","in",[
 
-			'workflow 1'
+			'workflow 1',
+			'Workflow State',
+			'Workflow Action Master'
+
 
 
 
@@ -171,17 +174,13 @@ fixtures = [
 #	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
-# Document Events
-# ---------------
-# Hook on document methods and events
-
 # doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+# 	"Purchase Order": {
+# 		"validate": "training.training.doctype.puchase_order.purchase_order.valid"
+# 		"before_insert":"training.training.doctype.puchase_order.purchase_order"
+		
+# 	}
+#  }
 
 # Scheduled Tasks
 # ---------------
