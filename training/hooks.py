@@ -9,7 +9,7 @@ app_license = "MIT"
 
 
 
-fixtures = [
+fixtures = ["Server Script","Workflow State","Workflow Action Master",
 {"dt":"Custom Field",
 	"filters":[
 	[
@@ -18,6 +18,7 @@ fixtures = [
 			'Sales Invoice-sales_person',
 			'Item-items',
 			'Account-accounting'
+
 
 
 
@@ -31,10 +32,54 @@ fixtures = [
 	"name","in",[
 			'About Us Team Member-member-team',
 			'Purchase Receipt Item-from_warehouse-hidden'
+
+
+			]
+			]
+	]
+},
+{"dt":"Print Format",
+	"filters":[
+	[
+	"name","in",[
+			'Drag',
+			'print format doc'
+
+
+
+			]
+			]
+	]
+},
+{"dt":"Notification",
+	"filters":[
+	[
+	"name","in",[
+			'notice'
+
+
+
+			]
+			]
+	]
+},
+{"dt":"Workflow",
+	"filters":[
+	[
+	"name","in",[
+
+			'workflow 1',
+			
+			
+
+
+
+
 			]
 			]
 	]
 }
+
 
 ]
 
@@ -129,17 +174,13 @@ fixtures = [
 #	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
-# Document Events
-# ---------------
-# Hook on document methods and events
-
 # doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+# 	"Purchase Order": {
+# 		"validate": "training.training.doctype.puchase_order.purchase_order.valid"
+# 		"before_insert":"training.training.doctype.puchase_order.purchase_order"
+		
+# 	}
+#  }
 
 # Scheduled Tasks
 # ---------------
