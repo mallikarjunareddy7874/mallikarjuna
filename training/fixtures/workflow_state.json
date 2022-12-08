@@ -1,0 +1,182 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2022-11-25 18:17:25.671028",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2022-11-25 18:17:25.673657",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2022-11-25 18:17:25.705011",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:52:12.058836",
+  "name": "Drafts",
+  "style": "",
+  "workflow_state_name": "Drafts"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:54:39.098678",
+  "name": "Approved by Sales Manager",
+  "style": "",
+  "workflow_state_name": "Approved by Sales Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:00:17.182471",
+  "name": "approved by master manager",
+  "style": "",
+  "workflow_state_name": "approved by master manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:00:38.619986",
+  "name": "approved by stock manger",
+  "style": "",
+  "workflow_state_name": "approved by stock manger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:02:25.217302",
+  "name": "submitted by sales master manger",
+  "style": "",
+  "workflow_state_name": "submitted by sales master manger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:04:36.000360",
+  "name": "cancelled by stock maneger",
+  "style": "",
+  "workflow_state_name": "cancelled by stock maneger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:29:21.931483",
+  "name": "Approved by SM",
+  "style": "",
+  "workflow_state_name": "Approved by SM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:30:30.457396",
+  "name": "Reject by SM",
+  "style": "",
+  "workflow_state_name": "Reject by SM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:31:19.072617",
+  "name": "Approved by SMM",
+  "style": "",
+  "workflow_state_name": "Approved by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:31:46.298299",
+  "name": "reject by SMM",
+  "style": "",
+  "workflow_state_name": "reject by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:32:41.777069",
+  "name": "reject by stock maneger",
+  "style": "",
+  "workflow_state_name": "reject by stock maneger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:35:30.719500",
+  "name": "penning by Sales Manager",
+  "style": "",
+  "workflow_state_name": "penning by Sales Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:37:01.710914",
+  "name": "penning by SMM",
+  "style": "",
+  "workflow_state_name": "penning by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 17:37:44.496561",
+  "name": "penning by stock manger",
+  "style": "",
+  "workflow_state_name": "penning by stock manger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-07 10:30:12.454119",
+  "name": "hold by stock manger",
+  "style": "",
+  "workflow_state_name": "hold by stock manger"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-08 15:01:33.524180",
+  "name": "approve",
+  "style": "",
+  "workflow_state_name": "approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-08 15:01:49.675740",
+  "name": "reject",
+  "style": "",
+  "workflow_state_name": "reject"
+ }
+]

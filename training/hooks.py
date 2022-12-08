@@ -9,7 +9,7 @@ app_license = "MIT"
 
 
 
-fixtures = [
+fixtures = ["Server Script","Workflow State","Workflow Action Master",
 {"dt":"Custom Field",
 	"filters":[
 	[
@@ -69,8 +69,8 @@ fixtures = [
 	"name","in",[
 
 			'workflow 1',
-			'Workflow State',
-			'Workflow Action Master'
+			
+			
 
 
 
