@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tabulator *.css
+recursive-include tabulator *.csv
+recursive-include tabulator *.html
+recursive-include tabulator *.ico
+recursive-include tabulator *.js
+recursive-include tabulator *.json
+recursive-include tabulator *.md
+recursive-include tabulator *.png
+recursive-include tabulator *.py
+recursive-include tabulator *.svg
+recursive-include tabulator *.txt
+recursive-exclude tabulator *.pyc
