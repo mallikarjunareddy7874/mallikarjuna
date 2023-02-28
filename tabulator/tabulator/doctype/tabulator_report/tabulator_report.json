@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:report_name",
+ "creation": "2023-02-22 15:42:30.379822",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_name",
+  "report_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_name",
+   "fieldtype": "Link",
+   "label": "Report Name",
+   "options": "Report",
+   "unique": 1
+  },
+  {
+   "fieldname": "report_html",
+   "fieldtype": "HTML",
+   "label": "Report HTML "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-22 16:10:38.409465",
+ "modified_by": "Administrator",
+ "module": "Tabulator",
+ "name": "Tabulator Report",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

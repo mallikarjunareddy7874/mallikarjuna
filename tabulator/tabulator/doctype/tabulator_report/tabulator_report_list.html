@@ -1,0 +1,21 @@
+<div id="item-table"></div>
+
+<script>
+    frappe.ui.form.on('Item', {
+        onload: function(frm) {
+            var table = new Tabulator("#item-table", {
+                height:"311px",
+                columns:[
+                    {title:"Name", field:"name"},
+                    {title:"Progress", field:"progress", hozAlign:"right", sorter:"number"},
+                    {title:"Gender", field:"gender"},
+                    {title:"Rating", field:"rating", hozAlign:"center"},
+                    {title:"Favourite Color", field:"col"},
+                    {title:"Date Of Birth", field:"dob", hozAlign:"center", sorter:"date"},
+                    {title:"Driver", field:"car", hozAlign:"center"},
+                ],
+                ajaxURL: "/api/resource/tabulator?fields=['name', 'progress', 'gender', 'rating', 'col', 'dob', 'car']"
+            });
+        }
+    });
+</script>

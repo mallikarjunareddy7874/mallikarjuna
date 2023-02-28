@@ -11,9 +11,13 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/tabulator/css/tabulator.css"
-# app_include_js = "/assets/tabulator/js/tabulator.js"
-
+app_include_css = [
+    "/assets/my-app/css/tabulator_bootstrap4.min.css",
+]
+app_include_js = [
+    "/assets/my-app/js/tabulator.min.js",
+    "/assets/my-app/js/data_tabulator.js",
+]
 # include js, css files in header of web template
 # web_include_css = "/assets/tabulator/css/tabulator.css"
 # web_include_js = "/assets/tabulator/js/tabulator.js"
@@ -29,10 +33,14 @@ app_license = "MIT"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+# doctype_js = {"Tab Report" : "tabulator/doctype/tab_report/tab_report.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+
+doctype_js = {
+    "Sales Order" : "tabulator/doctype/sales_order/sales_order.js",
+    }
 
 # Home Pages
 # ----------
